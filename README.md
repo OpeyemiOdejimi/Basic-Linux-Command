@@ -94,7 +94,8 @@ Some of the most used text editors are discussed below
 ### Vim Text Editor
 
 * Open a new file on vim using the ``vim exercise.txt`` command. This command opens the *Vim* editor and creates an *exercise.txt* file.
-[vim editor](Images/vim-editor.png)
+
+![vim editor](Images/vim-editor.png)
 
 *Enter the editor mode by pressing `i` on your keyboard. Type the following into the editor `Hello, this is a Vim hands-on project. Welcome to darey.io.`
 
