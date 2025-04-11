@@ -1,4 +1,4 @@
-# Basic-Linux-Command Project
+# Basic-Linux-Command and Working with Text Editor Project
 
 Now that learners are familiar with Linux, the purpose of this project is to help learners understand how to use various basic linux commands. Some of these commands include ``cd``, ``ls``, ``pwd``, ``cp``, ``mv`` and the ``sudo`` command. 
 
@@ -84,3 +84,32 @@ The `concatenate` or `cat` command is one of the frequently used linux command. 
 * Run the ``sudo cat /etc/os-release`` on the terminal. This command prints the details of the _os-release_ file in the _/etc/_ folder
 
 ![Concatenating files](Images/cat-etc.png)
+
+## Working with Text Editors in Linux
+
+A linux text editor is a software application designed to for creating, modifying, and managing text files on a Linux-based operating system. Text editors play a crucial role in linux environment as it provides users with means for interacting with text files, scripts, configuration files etc.
+
+Some of the most used text editors are discussed below
+
+### Vim Text Editor
+
+* Open a new file on vim using the ``vim exercise.txt`` command. This command opens the *Vim* editor and creates an *exercise.txt* file.
+[vim editor](Images/vim-editor.png)
+
+*Enter the editor mode by pressing `i` on your keyboard. Type the following into the editor `Hello, this is a Vim hands-on project. Welcome to darey.io.`
+
+* Press `esc` key to exit insert mode. Then type `:wq` to save the file. The `w` means write, while the `q` means quit.
+
+![vim insert mode](Images/vim-insert-mode.png)
+
+### Nano Text Editor
+
+Nano is another user friendly text editor in Linux.
+
+* Open a new file on Nano using the ``nano_project.txt`` command. This will open the nano editor.
+
+* After typing the desired content on the editor. Use `ctrl`+`o` to save the file.
+
+* `Ctrl`+`x` will prompt you to save the file.
+
+![nano editor](Images/nano-editor.png)
